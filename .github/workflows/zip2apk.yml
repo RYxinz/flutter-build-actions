@@ -1,5 +1,4 @@
 name: ZIP2APK Build
-
 on:
   workflow_dispatch:
     inputs:
@@ -28,7 +27,7 @@ jobs:
 
       - uses: actions/setup-java@v4
         with:
-          distribution: zulu
+          distribution: 'zulu'
           java-version: '17'
 
       - uses: subosito/flutter-action@v2
